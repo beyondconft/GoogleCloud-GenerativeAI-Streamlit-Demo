@@ -16,7 +16,7 @@ source venv/bin/activate
    ``` pip install google-cloud-aiplatform ```
 4. [Authenticate to Google Cloud](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login) \
    ``` gcloud auth application-default login ```
-5. Set Environment Variables \
+5. Set Environment Variables 
    ```
    export MY_PROJECT=<google-cloud-project-id>
    export MY_REGION=<google-cloud-region>
