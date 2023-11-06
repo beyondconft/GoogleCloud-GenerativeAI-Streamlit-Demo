@@ -1,5 +1,5 @@
 # GoogleCloud-GenerativeAI-Streamlit-Demo
-Multi-page application chatbot demo of Streamlit using Google Cloud Generative AI models
+Multi-page application demo of Streamlit using Google Cloud Generative AI models. Three chatbots are included in the demo.
 1. Text Generation Bot
 2. Code Generation Bot
 3. Customer Service Bot
