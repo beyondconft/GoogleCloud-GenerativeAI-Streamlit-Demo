@@ -8,7 +8,7 @@ Multi-page application demo of Streamlit using Google Cloud Generative AI models
 1. Activate virtual python environment \
 ```
 python3 -m venv venv
-source venv/vin/activate
+source venv/bin/activate
 ```
 2. [Install Streamlit in Python Virtual Environment](https://docs.streamlit.io/library/get-started/installation) \
    ``` pip install streamlit ```
