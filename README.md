@@ -5,7 +5,7 @@ Multi-page application demo of Streamlit using Google Cloud Generative AI models
 3. Customer Service Bot
 
 ## Pre-requisites
-1. Activate virtual python environment \
+1. Activate virtual python environment
 ```
 python3 -m venv venv
 source venv/bin/activate
