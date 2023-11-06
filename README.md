@@ -14,7 +14,7 @@ source venv/bin/activate
    ``` pip install streamlit ```
 3. [Install Google Cloud Vertex AI Python SDK](https://cloud.google.com/vertex-ai/docs/start/install-sdk) \
    ``` pip install google-cloud-aiplatform ```
-4. Authenticate to Google Cloud - [gcloud auth application-default login](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login) \
+4. [Authenticate to Google Cloud](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login) \
    ``` gcloud auth application-default login ```
 5. Set Environment Variables \
    ```
