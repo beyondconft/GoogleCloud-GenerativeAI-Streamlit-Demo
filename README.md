@@ -18,8 +18,8 @@ source venv/bin/activate
    ``` gcloud auth application-default login ```
 5. Set Environment Variables \
    ```
-   export MY_PROJECT=google-cloud-project-id
-   export MY_REGION=google-cloud-region
+   export MY_PROJECT=<google-cloud-project-id>
+   export MY_REGION=<google-cloud-region>
    ```
    
 | **Environment Variable** | **Description** |
