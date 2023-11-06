@@ -5,12 +5,19 @@ Multi-page application demo of Streamlit using Google Cloud Generative AI models
 3. Customer Service Bot
 
 ## Pre-requisites
-1. Activate virtual python environment
+1. Activate virtual python environment \
 ``` python -m venv venv ``` 
-3. [Install Streamlit in Python Virtual Environment](https://docs.streamlit.io/library/get-started/installation)
-4. [Install Google Cloud Vertex AI Python SDK](https://cloud.google.com/vertex-ai/docs/start/install-sdk)
-5. Authenticate to Google Cloud - [gcloud auth application-default login](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login)
-6. Set Environment Variables
+3. [Install Streamlit in Python Virtual Environment](https://docs.streamlit.io/library/get-started/installation) \
+   ``` pip install streamlit ```
+5. [Install Google Cloud Vertex AI Python SDK](https://cloud.google.com/vertex-ai/docs/start/install-sdk) \
+   ``` pip install google-cloud-aiplatform ```
+7. Authenticate to Google Cloud - [gcloud auth application-default login](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login) \
+   ``` gcloud auth application-default login ```
+9. Set Environment Variables \
+   ```
+   export MY_PROJECT=google-cloud-project-id
+   export MY_REGION=google-cloud-region
+   ```
    
 | **Environment Variable** | **Description** |
 | --- | --- |
