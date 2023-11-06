@@ -6,10 +6,11 @@ Multi-page application demo of Streamlit using Google Cloud Generative AI models
 
 ## Pre-requisites
 1. Activate virtual python environment
-2. [Install Streamlit in Python Virtual Environment](https://docs.streamlit.io/library/get-started/installation)
-3. [Install Google Cloud Vertex AI Python SDK](https://cloud.google.com/vertex-ai/docs/start/install-sdk)
-4. Authenticate to Google Cloud - [gcloud auth application-default login](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login)
-5. Set Environment Variables
+``` python -m venv venv ``` 
+3. [Install Streamlit in Python Virtual Environment](https://docs.streamlit.io/library/get-started/installation)
+4. [Install Google Cloud Vertex AI Python SDK](https://cloud.google.com/vertex-ai/docs/start/install-sdk)
+5. Authenticate to Google Cloud - [gcloud auth application-default login](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login)
+6. Set Environment Variables
    
 | **Environment Variable** | **Description** |
 | --- | --- |
